@@ -3,6 +3,7 @@ require "pry"
 
 def count_strings(array)
 array.count {|string| string.class == String}
+binding.pry
 end
 
 #Return the total number of EMPTY strings in the provided array using the count enumerable
